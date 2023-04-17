@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.toast-bottom-right {
+    animation-name: slide-in;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+.rotateImgs{
+    width: 200px;
+    height: 200px;
+}
+    
+.rotateSide {
+
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .rotateImgs {
+        -webkit-animation: animate 20s linear infinite;
+        -moz-animation: animate 20s linear infinite;
+        -o-animation: animate 20s linear infinite;
+        animation: animate 20s linear infinite;
+    }
+    
+  }
+  @-webkit-keyframes animate {
+    from {
+       
+        transform: rotateZ(0deg);
+    }
+    to {
+ 
+        transform: rotateZ(365deg);
+      }
+  }
+  @-moz-keyframes animate {
+    from {
+       
+        transform: rotateZ(0deg);
+    }
+    to {
+ 
+        transform: rotateZ(365deg);
+      }
+  }
+  @-o-keyframes animate {
+    from {
+       
+        transform: rotateZ(0deg);
+    }
+    to {
+ 
+        transform: rotateZ(365deg);
+      }
+  }
+
+  @keyframes animate {
+    from {
+       
+        transform: rotateZ(0deg);
+    }
+    to {
+ 
+        transform: rotateZ(365deg);
+      }
+  }
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .rotateSide {
+        -webkit-animation: animate 20s linear infinite;
+        -moz-animation: animate 20s linear infinite;
+        -o-animation: animate 20s linear infinite;
+        animation: animate 20s linear infinite;
+    }
+    
+  }
+  @-webkit-keyframes animate {
+    from {
+       
+        transform: rotateZ(365deg);
+    }
+    to {
+ 
+        transform: rotateZ(0deg);
+      }
+  }
+  @-moz-keyframes animate {
+    from {
+       
+        transform: rotateZ(365deg);
+    }
+    to {
+ 
+        transform: rotateZ(0deg);
+      }
+  }
+  @-o-keyframes animate {
+    from {
+       
+        transform: rotateZ(365deg);
+    }
+    to {
+ 
+        transform: rotateZ(0deg);
+      }
+  }
+
+  @keyframes animate {
+    from {
+       
+        transform: rotateZ(365deg);
+    }
+    to {
+ 
+        transform: rotateZ(0deg);
+      }
+  }
+
+
+
+
+
+
