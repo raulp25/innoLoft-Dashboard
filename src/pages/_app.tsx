@@ -46,7 +46,7 @@ export default function MyApp(props: MyAppProps) {
 MyApp.getInitialProps = async (context: AppContext) => {
   const appId = process.env.NEXT_PUBLIC_APP_ID !== undefined ? process.env.NEXT_PUBLIC_APP_ID : '1';
   const company = await getAppData();
-  const companyConfig = await getAppConfig('2');
+  const companyConfig = await getAppConfig(appId);
   const trlData = await getTrlData()
 
   return {
